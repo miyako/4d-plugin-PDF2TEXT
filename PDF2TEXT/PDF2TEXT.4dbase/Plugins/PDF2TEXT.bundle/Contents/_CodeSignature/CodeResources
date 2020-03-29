@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eAPTWyF+noRWypbXMakPKvRrppw=
+			ijQlNTadTBBPwtm58SCYUCMYnc4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			MhLH38KVFjhItxQne/QIO9ApsQA=
+			PWKtFG4cozUcS8paa3OBlq+EYaw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libiconv.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -435,7 +435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TvClAgQC5b1cx8IDYv20T3lkmmKfQb96/HdUZGOxLM=
+			XujsPJioxRbuoPyeXE4VY5LOzmjMeSPVMHYc5BSOo/8=
 			</data>
 			<key>optional</key>
 			<true/>
