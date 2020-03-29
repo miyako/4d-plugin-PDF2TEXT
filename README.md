@@ -9,7 +9,7 @@ ARRAY TEXT($pages;0)
 $startPage:=0
 $endPage:=0
 $password:=""
-$callback:="PDF2SVG_CB_PICTURE"
+$callback:="PDF2TEXT_CB"
 
 <>p:=Progress New 
 Progress SET PROGRESS (<>P;0)
