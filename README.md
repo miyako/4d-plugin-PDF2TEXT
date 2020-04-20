@@ -66,11 +66,3 @@ To abort:
 ```
 $0:=Progress Stopped (<>P)
 ```
-
-**Error codes**
-
-```
-#define PDF2SVG_ERROR_InvalidSourceData (-1)
-#define PDF2SVG_ERROR_InvalidReturnType (-2)
-#define PDF2SVG_ERROR_AbortedByUser (-3)
-```
