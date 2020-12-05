@@ -1,1 +1,11 @@
-﻿{"name":"PDF2TEXT","id":20000,"commands":[{"theme":"Text","syntax":"PDF Get text(&O;&Y;&L;&L;&T;&T;&T):L"}]}
+{
+	"name": "PDF2TEXT",
+	"id": 20000,
+	"commands": [
+		{
+			"theme": "Text",
+			"syntax": "PDF Get text(&O;&Y;&L;&L;&T;&T;&T):L",
+			"threadSafe": true
+		}
+	]
+}

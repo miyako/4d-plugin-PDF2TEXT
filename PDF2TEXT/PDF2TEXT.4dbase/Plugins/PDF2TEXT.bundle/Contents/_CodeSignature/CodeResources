@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ijQlNTadTBBPwtm58SCYUCMYnc4=
+			QcIBj+WRIUYCD2R9nNi9GDMQeKw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -104,6 +104,10 @@
 		<key>Resources/constants.xlf</key>
 		<data>
 		UbZYnK1QdI2HA5cO0/aNT2a+ucQ=
+		</data>
+		<key>Resources/manifest.json</key>
+		<data>
+		xCRGl7vNsEYmBhOBvwygA/SfQkw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -435,7 +439,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XujsPJioxRbuoPyeXE4VY5LOzmjMeSPVMHYc5BSOo/8=
+			CXQglf4l7bacqzAfoHQWSzYkyxDHAZnWVlaOPFSdya8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -445,6 +449,13 @@
 			<key>hash2</key>
 			<data>
 			7t2nF9u/4W05GOd8UQ7QAt/PFge16k3ydWYX/6ElmJk=
+			</data>
+		</dict>
+		<key>Resources/manifest.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g+XOoqtUtCqG2nsJ6XRapIC7PlplC3MqCjEQTtzGeOg=
 			</data>
 		</dict>
 		<key>Windows/PDF2TEXT.4DX</key>
@@ -587,6 +598,13 @@
 			E5J9Ax5Z8Jn6vYABHhSBbh30fFyb4PVNQLBdFTMlo+Q=
 			</data>
 		</dict>
+		<key>Windows/libxml2-2.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			93oK1hUWfQ6XMMLdB07btmeaPhIT7b6kSu5P5mpvnYg=
+			</data>
+		</dict>
 		<key>Windows/pthreadGC2.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -634,6 +652,13 @@
 			<key>hash2</key>
 			<data>
 			NKKS46n+ZW1O80qrYD75UNSc4jBLAP0eHekE8t2qSj0=
+			</data>
+		</dict>
+		<key>Windows64/libgcc_s_sjlj-1.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rXGpRpRsrSgFp2EJizCo7z6+ldR/MOZGG5WUt3Ng9Ao=
 			</data>
 		</dict>
 		<key>Windows64/libgio-2.0-0.dll</key>
@@ -720,6 +745,13 @@
 			Ylxu1LsBMTWEa6KYWf2IHUfSdqcbtthhW9TcPZoBd/Q=
 			</data>
 		</dict>
+		<key>Windows64/libstdc++-6.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Kctbn1GIV6KqFEZBgg29kuQsiNs5V7oyDphX6xG3t+A=
+			</data>
+		</dict>
 		<key>Windows64/libtiff-5.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -734,21 +766,19 @@
 			GxTFgHIVmelQqqzMFXy7xFP36kj5/XyNEiYjJKFTNic=
 			</data>
 		</dict>
+		<key>Windows64/libxml2-2.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ucSelSa9G6h8zO80bzwoBOLOZKME3RVmFFAaHJeHxCQ=
+			</data>
+		</dict>
 		<key>Windows64/zlib1.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			6hugoNV4fHKzH16vs8XZArxygdLfW3gIsAFjAxxkb0M=
 			</data>
-		</dict>
-		<key>manifest.json</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Kg7J5cC3MO4DOF3PfXu7vNRxqYI=
-			</data>
-			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 	</dict>
 	<key>rules</key>
