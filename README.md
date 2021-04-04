@@ -6,26 +6,6 @@
 # 4d-plugin-PDF2TEXT
 Extract text from PDF, using [Poppler](https://poppler.freedesktop.org)
 
-### Examples
-
-```
-$path:=Get 4D folder(Current resources folder)+"sample.pdf"
-DOCUMENT TO BLOB($path;$PDF)
-
-ARRAY TEXT($pages;0)
-$startPage:=0
-$endPage:=0
-$password:=""
-$callback:="PDF2TEXT_CB"
-
-<>p:=Progress New 
-Progress SET PROGRESS (<>P;0)
-Progress SET BUTTON ENABLED (<>P;True)
-
-$error:=PDF Get text ($PDF;$pages;$startPage;$endPage;$password;$callback)
-
-Progress QUIT (<>P)
-```
 
 **Arguments**
 
@@ -35,29 +15,3 @@ Progress QUIT (<>P)
 * $4: ending page (1 based). [optional]
 * $5: password. [optional]
 * $6: callback method. [optional]
-
-**Callback**
-
-The method is executed in the same process as the calling method.
-
-Parameters:
-
-```
-C_LONGINT($1;$pos)//1-based
-C_LONGINT($2;$total)
-C_LONGINT($3;$pageNumber)//1-based
-C_TEXT($4;$page)
-C_BOOLEAN($0;$stop)
-```
-
-To display a progress bar:
-
-```
-Progress SET PROGRESS (<>P;$pos/$total)
-```
-
-To abort:
-
-```
-$0:=Progress Stopped (<>P)
-```
